@@ -3,7 +3,7 @@ from PIL import ImageTk, Image
 
 root = Tk()
 root.title("Image Viewer")
-root.iconphoto(True, PhotoImage(file="icon.png"))
+root.iconphoto(True, PhotoImage(file="/home/soumyo/PycharmProjects/Image Viewer/icon.png"))
 
 my_img_1 = Image.open("/home/soumyo/PycharmProjects/Image Viewer/images/pic1.jpg")  # Opening the original image
 my_img_1 = my_img_1.resize((300, 303), Image.ANTIALIAS)  # Resize the original image
